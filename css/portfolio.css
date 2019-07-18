@@ -1,0 +1,73 @@
+.container {
+   position: relative;
+   height: 95vh;
+   width: 95vw;
+   margin: 3vh auto 0;
+}
+
+@media (min-width: 475px) {
+   .container {
+      background-color: lightgreen;
+   }
+}
+
+@media (min-width: 476px) and (max-width: 768px) {
+   .container {
+      background-color: lightblue;
+   }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   .container {
+      background-color: pink;
+   }
+}
+
+.first {
+   height: auto;
+   position: relative;
+   box-sizing: content-box;
+}
+
+h1 {
+   text-align: right;
+   line-height: 2;
+   position: relative;
+   background-color: red;
+   width: 60%;
+   margin: 3% 0 3% auto;
+}
+
+/* .first-main-img {
+   position: relative;
+   width: 80vw;
+   height: 200px;
+   background-color: pink;
+} */
+
+.rectangle-border-1 {
+   width: 400px;
+   height: 300px;
+   background-color: lightyellow;
+   position: relative;
+   margin-top: -3vh;
+}
+
+main {
+   width: calc(100% - 40px);
+   margin: 0 20px;
+   position: relative;
+   display: inline-flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.main-img {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   background-color: lightblue;
+   /* margin: 75px; */
+   display: inline-block;
+}
