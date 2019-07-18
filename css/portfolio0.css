@@ -1,19 +1,18 @@
 .container {
    position: relative;
    height: 100vh;
-   /* width: 95vw; */
-   margin: 3vh 50px auto;
+   width: 800px;
+   margin: 3vh auto auto;
 }
 
 .first {
    width: 100%;
    height: auto;
+   max-height: 1078px;
    position: relative;
    box-sizing: content-box;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   align-items: flex-start;
+   margin-top: auto;
+   margin-bottom: auto;
 }
 
 h1 {
@@ -29,11 +28,10 @@ h1 {
 
 .first-main > img {
    position: relative;
-   width: 68vw;
+   max-width: 68vw;
    z-index: 1;
    top: -70px;
    left: 0;
-   flex-grow: 1;
 }
 
 .rectangle-border-1 {
@@ -47,24 +45,26 @@ h1 {
 }
 
 .writing-block-1 {
-   position: absolute;
+   position: relative;
    min-width: 250px;
-   height: 65vh;
-   /* background-color: lightblue; */
-   margin: 0 10px 0 auto;
-   top: 100px;
-   right: 0;
-   flex-grow: 2;
+   max-width: 700px;
+   height: auto;
+   background-color: lightblue;
+   margin: -20px auto 0 30vw;
+   padding-bottom: 20px;
+   top: -100px;
+   /* right: 0; */
    max-height: 600px;
    z-index: 2;
 }
 
 h2 {
-   margin: 30px 10px 0;
+   margin: 20px 10px;
+   padding-top: 20px;
 }
 
 p {
-   position: absolute;
+   position: relative;
    margin: 20px 10px;
 }
 
@@ -90,15 +90,44 @@ main {
    display: inline-block;
 }
 
-@media (min-width: 475px) {
+@media (max-width: 425px) {
    .container {
       background-color: lightgreen;
+      width: auto;
+   }
+
+   h1 {
+      text-align: right;
+      line-height: 1.5;
+      position: relative;
+      background-color: red;
+      width: 90%;
+      margin: 3% 0 3% auto;
+      padding-right: 3%;
+      z-index: 2;
+   }
+
+   .writing-block-1 {
+      max-width: 100%;
+      margin: 0;
+      top: 0;
+      padding: 3%;
+   }
+
+   h2 {
+      padding-top: 0;
+   }
+
+   .first-main > img {
+      max-width: 100%;
+      top: 0;
    }
 }
 
-@media (min-width: 476px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
    .container {
       background-color: lightblue;
+      width: 700px;
    }
 }
 
@@ -112,16 +141,28 @@ main {
    }
 
    .writing-block-1 {
-      width: 30vw;
+      margin: -20px auto 0 160px;
    }
 
    .first-main > img {
-      width: 62vw;
+      /* width: 62vw; */
    }
 }
 
 @media (min-width: 1025px) {
    .container {
       background-color: darkblue;
+      width: 1000px;
+   }
+
+   .writing-block-1 {
+      min-width: 600px;
+      max-width: 800px;
+      margin: -20px 0 0 auto;
+   }
+
+   .first-main > img {
+      width: 68vw;
+      max-width: 1000px;
    }
 }
