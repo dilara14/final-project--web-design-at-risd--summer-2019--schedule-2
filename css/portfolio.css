@@ -36,6 +36,8 @@ h1 {
    background-color: red;
    width: 60%;
    margin: 3% 0 3% auto;
+   padding-right: 3%;
+   z-index: 1;
 }
 
 /* .first-main-img {
@@ -46,17 +48,33 @@ h1 {
 } */
 
 .rectangle-border-1 {
-   width: 400px;
-   height: 300px;
+   width: 70vw;
+   height: 400px;
    background-color: lightyellow;
    position: relative;
-   margin-top: -3vh;
+   margin-top: calc(-80px);
+}
+
+.writing-block-1 {
+   position: absolute;
+   width: 25vw;
+   height: 450px;
+   background-color: lightblue;
+   margin: 0 0 0 auto;
+   top: 60px;
+   right: 0;
+}
+
+h2,
+p {
+   margin: 0;
 }
 
 main {
    width: calc(100% - 40px);
    margin: 0 20px;
-   position: relative;
+   position: absolute;
+   top: 550px;
    display: inline-flex;
    flex-wrap: wrap;
    justify-content: space-around;
