@@ -54,6 +54,8 @@ p {
       width: 100%;
       padding: 0;
       z-index: 2;
+      font-size: 36px;
+      min-width: 355px;
    }
 
    .writing-block-1 {
@@ -72,6 +74,11 @@ p {
    .container {
       background-color: lightblue;
       max-width: 100%;
+   }
+
+   h1 {
+      font-size: 36px;
+      min-width: 355px;
    }
 
    .writing-block-1 {
