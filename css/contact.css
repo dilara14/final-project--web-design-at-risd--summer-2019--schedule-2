@@ -49,6 +49,20 @@ p {
    color: #032032;
 }
 
+.icons {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+   max-width: 600px;
+   margin: auto;
+}
+
+.icons > a > img {
+   width: 200px;
+   margin: 10px;
+}
+
 @media (max-width: 425px) {
    .container {
       /* background-color: lightgreen; */
@@ -72,6 +86,8 @@ p {
       margin: 0;
       top: 0;
       padding: 3%;
+      height: auto;
+      max-height: none;
    }
 
    h2 {
@@ -92,6 +108,8 @@ p {
 
    .writing-block-1 {
       margin: 0 auto;
+      height: auto;
+      max-height: none;
    }
 }
 

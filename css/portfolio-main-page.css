@@ -35,7 +35,7 @@
    background-color: #032032;
    width: 50%;
    margin: 45px auto 20px;
-   font-family: 'Kaushan Script', cursive;
+   font-family: Merriweather, serif;
 }
 
 h1 {
@@ -85,12 +85,17 @@ h1 {
    padding: 1em;
    width: 100%;
    opacity: 0;
+   font-family: Merriweather, serif;
 }
 
+/* .card > .front:hover > a > img {
+   filter: opacity(75%);
+} */
+
 .card > .front:hover > h4 {
-   background-color: #ff7364;
+   background-color: #032032;
    opacity: 1;
-   color: #f2f2f2;
+   color: #ff7364;
 }
 
 a {
@@ -123,8 +128,8 @@ a {
       position: relative;
       /* background-color: red; */
       width: 90%;
-      margin: 3% 0 3% auto;
-      padding-right: 3%;
+      margin: 3% 0;
+      padding: 0;
       z-index: 2;
    }
 }

@@ -82,23 +82,57 @@ p {
 main {
    width: calc(100% - 40px);
    margin: 60px 20px;
-   position: relative;
-   /* margin: 120px 20px;
-   position: absolute; */
-   /* top: 75vh; */
+   position: absolute;
    display: inline-flex;
    flex-wrap: wrap;
    justify-content: space-around;
    align-items: center;
 }
 
-.main-img {
+section {
+   width: 800px;
+}
+
+figure {
    position: relative;
-   width: 250px;
-   height: 600px;
-   background-color: lightblue;
-   /* margin: 75px; */
-   display: inline-block;
+}
+
+figure > figcaption {
+   position: absolute;
+   left: -40px;
+   background-color: #f2f2f2;
+   width: 300px;
+   height: 40px;
+   text-align: center;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 40px;
+   opacity: 0;
+   transition: 350ms;
+   font-family: Merriweather, serif;
+   color: #032032;
+   border-radius: 10px;
+}
+
+figure:hover > figcaption {
+   opacity: 1;
+   bottom: 0;
+}
+
+figure > img {
+   color: #900;
+   width: 100%;
+}
+
+figure + p {
+   background-color: white;
+   font-weight: 200;
+   padding-top: 8px;
+   position: relative;
+}
+
+a {
+   text-decoration: none;
 }
 
 @media (max-width: 425px) {
@@ -111,7 +145,6 @@ main {
       text-align: right;
       line-height: 1.5;
       position: relative;
-      background-color: red;
       width: 90%;
       margin: 3% 0 3% auto;
       padding-right: 3%;
@@ -123,15 +156,36 @@ main {
       margin: 0;
       top: 0;
       padding: 3%;
+      max-height: none;
    }
 
    h2 {
       padding-top: 0;
+      margin: 10px;
+   }
+
+   p {
+      margin: 10px;
    }
 
    .first-main > img {
       max-width: 100%;
       top: 0;
+   }
+
+   main {
+      top: 12.5%;
+      margin: 80px 0;
+      width: 100%;
+   }
+
+   section {
+      width: 100%;
+   }
+
+   figure {
+      width: 100%;
+      margin: 2px 0;
    }
 }
 
@@ -139,6 +193,26 @@ main {
    .container {
       /* background-color: lightblue; */
       max-width: 100%;
+   }
+
+   .writing-block-1 {
+      max-width: 100%;
+      margin: auto;
+   }
+
+   main {
+      top: 12%;
+      margin: 80px 0;
+      width: 100%;
+   }
+
+   section {
+      width: 100%;
+   }
+
+   figure {
+      width: 100%;
+      margin: 2px 0;
    }
 }
 
@@ -148,15 +222,12 @@ main {
    }
 
    main {
-      margin: 100px 20px;
+      margin: 80px 20px;
+      top: 100vw;
    }
 
    .writing-block-1 {
-      margin: -20px auto 0 160px;
-   }
-
-   .first-main > img {
-      /* width: 62vw; */
+      margin: -20px 0 0 auto;
    }
 }
 
@@ -173,7 +244,11 @@ main {
    }
 
    .first-main > img {
-      width: 68vw;
+      width: 70vw;
       max-width: 1000px;
+   }
+
+   main {
+      top: 90vw;
    }
 }
