@@ -1,8 +1,10 @@
 .container {
    position: relative;
-   height: 100vh;
+   height: 1000vh;
    width: 800px;
    margin: 3vh auto auto;
+   background-color: #3bb8db;
+   border-radius: 10px;
 }
 
 .first {
@@ -17,14 +19,18 @@
 }
 
 h1 {
+   font-family: Merriweather, serif;
    text-align: right;
-   line-height: 2;
+   line-height: 2.5;
    position: relative;
-   background-color: red;
    width: 60%;
    margin: 3% 0 3% auto;
    padding-right: 3%;
    z-index: 2;
+   min-width: 308px;
+   background-color: #032032;
+   border-radius: 10px;
+   color: #f2f2f2;
 }
 
 .first-main > img {
@@ -39,7 +45,7 @@ h1 {
    /* width: 70vw; */
    width: 100%;
    height: 60vh;
-   background-color: lightyellow;
+   /* background-color: lightyellow; */
    position: absolute;
    top: 0;
    left: 0;
@@ -50,23 +56,27 @@ h1 {
    min-width: 250px;
    max-width: 700px;
    height: auto;
-   background-color: lightblue;
-   margin: -20px auto 0 30vw;
+   background: #f2f2f2;
+   border-radius: 10px;
+   margin: auto 10vh;
    padding-bottom: 20px;
    top: -100px;
-   /* right: 0; */
    max-height: 600px;
    z-index: 2;
 }
 
 h2 {
-   margin: 20px 10px;
-   padding-top: 20px;
+   font-family: Merriweather, serif;
+   font-size: 20px;
+   margin: 20px 30px;
+   padding-top: 40px;
 }
 
 p {
+   font-family: Merriweather, serif;
    position: relative;
-   margin: 20px 10px;
+   margin: 20px 30px;
+   color: #032032;
 }
 
 main {
@@ -93,7 +103,7 @@ main {
 
 @media (max-width: 425px) {
    .container {
-      background-color: lightgreen;
+      /* background-color: lightgreen; */
       width: auto;
    }
 
@@ -127,14 +137,14 @@ main {
 
 @media (min-width: 426px) and (max-width: 768px) {
    .container {
-      background-color: lightblue;
+      /* background-color: lightblue; */
       max-width: 100%;
    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
    .container {
-      background-color: pink;
+      /* background-color: pink; */
    }
 
    main {
@@ -152,7 +162,7 @@ main {
 
 @media (min-width: 1025px) {
    .container {
-      background-color: darkblue;
+      /* background-color: darkblue; */
       width: 1000px;
    }
 

@@ -1,11 +1,15 @@
 nav {
    /* position: fixed; */
+   font-size: 20px;
    top: 10px;
    left: 0;
    width: 100%;
-   background-color: #9ed3ff;
    z-index: 1;
    display: flex;
+   background: #032032;
+   border-radius: 10px;
+   box-sizing: border-box;
+   font-family: Merriweather, serif;
 }
 
 nav > ul {
@@ -24,7 +28,11 @@ nav > ul > li {
 
 a {
    text-decoration: none;
-   color: red;
+   color: white;
+}
+
+nav > ul > li:hover a {
+   color: #ff7364;
 }
 
 @media (max-width: 425px) {

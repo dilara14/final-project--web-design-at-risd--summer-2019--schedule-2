@@ -1,42 +1,71 @@
-/* .container > img {
-   width: 50%;
-   margin: auto;
-} */
-
 body {
-   margin: 0;
+   margin: 8px;
    padding: 0;
    font-family: sans-serif;
    /* background: url('img/DK-logo.jpg'); */
    /* background-size: cover; */
 }
 
-.container {
+.container > img {
    position: absolute;
-   background: #fff;
-   box-sizing: border-box;
-   border-radius: 10px;
+   width: 50%;
+   top: 12vh;
+   margin: auto 35px;
+   border-radius: 100%;
+   /* shape-outside: circle();
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center; */
 }
 
-.circle {
-   display: block;
-   width: 200px;
-   height: 200px;
-   background-image: url('img/DK-logo.jpg');
-   border-radius: 50%;
-   float: left;
-   shape-outside: circle();
-   margin: 30px 30px 30px 0;
-   text-align:center;
+.container {
+   position: relative;
+   background: #032032;
+   /* background: lightblue; */
+   border-radius: 10px;
+   box-sizing: border-box;
+   height: 100vh;
+   width: 800px;
+   margin: 3vh auto auto;
+   padding: 3vh;
 }
 
 p {
    margin: 0;
    padding: 0;
    text-align: justify;
-   line-height: 2px;
+   line-height: 80px;
+   font-size: 44px;
 }
 
 h1 {
-   margin: 0 0 20px;
+   margin: 20px 0;
+}
+
+.menu {
+   width: auto;
+   position: absolute;
+   padding: 80px 70px;
+   /* margin: 0 70px; */
+   top: 12vh;
+   right: 0;
+   font-family: 'Kaushan Script', cursive;
+   /* font-family: Merriweather, serif; */
+}
+
+.menu > p > a {
+   text-decoration: none;
+   color: white;
+}
+
+.menu > p:hover a {
+   color: #ff7364;
+}
+
+@media (max-width: 425px) {
+   .container > img {
+      top: 12vh;
+      margin: auto;
+   }
 }
