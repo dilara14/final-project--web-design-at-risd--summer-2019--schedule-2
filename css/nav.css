@@ -1,0 +1,48 @@
+nav {
+   font-family: 'EB Garamond', serif;
+   position: fixed;
+   top: 0px;
+   font-size: 1rem;
+   margin-left: 40px;
+   margin-top: 40px;
+}
+
+nav li {
+   padding: .5rem;
+   background-color: #fffbe4;
+   display: inline-block;
+   list-style-type: none;
+   position: relative;
+   /* box-shadow: 5px 5px 5px 5px #fffbe4; */
+}
+
+nav li ul {
+  position: absolute;
+   display: none;
+}
+
+nav li:hover > ul {
+   display: block;
+}
+
+nav a {
+   color: #000;
+   text-align: center;
+   display: block;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+a:visited {
+   /* color: #333; */
+}
+
+a:hover {
+   /* background-color: white; */
+}
+
+a:active {
+   /* background-color: red; */
+}
