@@ -3,16 +3,14 @@
 }
 
 body {
-   margin: 0;
    width: 100vw;
-   display: flex;
 }
 
 .main-container {
    position: relative;
    height: 100vh;
    width: 800px;
-   margin: 3vh auto auto;
+   margin: 0 auto auto;
    display: flex;
    /* justify-content: center; */
 }
@@ -32,23 +30,6 @@ h1 {
    font-weight: 700;
    font-size: 48px;
 }
-
-/* h2 {
-   font-size: 30px;
-   margin-top: 10px;
-   text-align: right;
-   padding: 0 4px;
-}
-
-h3 {
-   padding: 0 3px;
-   font-size: 30px;
-   margin-top: -29px;
-   text-align: left;
-   font-weight: 700;
-   font-family: Montserrat, sans-serif;
-   text-decoration: underline #01d2a3;
-} */
 
 .container {
    display: flex;
@@ -135,7 +116,7 @@ a {
 @media (min-width: 426px) and (max-width: 768px) {
    .main-container {
       background-color: lightblue;
-      width: 700px;
+      max-width: 100%;
    }
 }
 

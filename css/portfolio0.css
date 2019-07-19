@@ -128,7 +128,7 @@ main {
 @media (min-width: 426px) and (max-width: 768px) {
    .container {
       background-color: lightblue;
-      width: 700px;
+      max-width: 100%;
    }
 }
 
