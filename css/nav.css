@@ -7,7 +7,7 @@ nav {
    z-index: 1;
    display: flex;
    background: #032032;
-   border-radius: 10px;
+   border-radius: 10px 10px 0 0;
    box-sizing: border-box;
    font-family: Merriweather, serif;
 }

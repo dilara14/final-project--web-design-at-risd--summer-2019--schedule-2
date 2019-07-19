@@ -29,7 +29,7 @@ h1 {
    z-index: 2;
    min-width: 308px;
    background-color: #032032;
-   border-radius: 10px;
+   border-radius: 10px 0 0 10px;
    color: #f2f2f2;
 }
 
@@ -57,7 +57,7 @@ h1 {
    max-width: 700px;
    height: auto;
    background: #f2f2f2;
-   border-radius: 10px;
+   border-radius: 10px 0 0 10px;
    margin: auto 10vh;
    padding-bottom: 20px;
    top: -100px;
@@ -157,6 +157,7 @@ a {
       top: 0;
       padding: 3%;
       max-height: none;
+      border-radius: 0;
    }
 
    h2 {
@@ -198,6 +199,7 @@ a {
    .writing-block-1 {
       max-width: 100%;
       margin: auto;
+      border-radius: 0;
    }
 
    main {

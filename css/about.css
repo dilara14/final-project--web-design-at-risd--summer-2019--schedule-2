@@ -8,17 +8,17 @@
 }
 
 h1 {
-   text-align: right;
+   text-align: left;
    line-height: 2.5;
    position: relative;
    width: 60%;
-   margin: 3% 0 3% auto;
+   margin: 3% auto 3% 0;
    padding-right: 3%;
    padding-left: 3%;
    z-index: 2;
    min-width: 308px;
    background-color: #032032;
-   border-radius: 10px;
+   border-radius: 0 10px 10px 0;
    color: #f2f2f2;
    font-family: Merriweather, serif;
 }
@@ -33,7 +33,7 @@ h1 {
    max-height: 600px;
    z-index: 2;
    background: #f2f2f2;
-   border-radius: 10px;
+   border-radius: 0 10px 10px 0;
 }
 
 h2 {
@@ -72,6 +72,7 @@ p {
       margin: 0;
       top: 0;
       padding: 3%;
+      border-radius: 0;
    }
 
    h2 {
@@ -92,6 +93,7 @@ p {
 
    .writing-block-1 {
       margin: 0 auto;
+      border-radius: 0;
    }
 }
 
@@ -105,7 +107,7 @@ p {
    }
 
    .writing-block-1 {
-      margin: 0 auto 0 160px;
+      margin: 0 160px 0 auto;
    }
 }
 
@@ -118,6 +120,6 @@ p {
    .writing-block-1 {
       min-width: 600px;
       max-width: 800px;
-      margin: 0 0 0 auto;
+      margin: 0 auto 0 0;
    }
 }
