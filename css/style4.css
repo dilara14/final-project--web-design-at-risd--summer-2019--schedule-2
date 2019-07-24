@@ -1,0 +1,61 @@
+html {
+   height: 100%;
+}
+
+body {
+   background-color: #fffbe4;
+   background-attachment: fixed;
+   background:
+   fixed,
+   linear-gradient(to bottom, rgba(0, 0, 100, 0), rgba(0, 0, 100, 0), rgba(0, 0, 100, .8)) no-repeat fixed left,
+   url('../img/Witches1.png') no-repeat fixed center center / cover,
+   transparent;
+}
+
+#container {
+   background-color: #fffbe4;
+   margin-top: 70vh;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   height: 160vh;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  margin-left: 500px;
+  margin-right: 80px;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  padding: 80px;
+  padding-top: 140px;
+  line-height: 150%;
+}
+
+#left {
+padding: 40px;
+float:left;
+width: 380px;
+}
+
+#footerimage {
+  margin-top: 100px;
+  margin-left: 250px;
+
+.firstcharacter {
+  color: #903;
+  float: left;
+  font-family: 'EB Garamond', serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}

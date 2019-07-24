@@ -1,0 +1,65 @@
+html {
+   height: 100%;
+}
+
+body {
+   background-color: #fffbe4;
+   background-attachment: fixed;
+   background-image: linear-gradient(to top, rgba(0, 0, 100, 0), rgba(0, 0, 100, 0), rgba(0, 0, 100, .8));
+}
+
+#container {
+   background-color: #fffbe4;
+   margin-top: 80px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   height: 340vh
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+width: 100%;
+}
+
+.seal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 80%;
+}
+
+.gif {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-left: 205px;
+  padding-bottom: 0px;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  padding: 80px;
+  padding-bottom: 0px;
+  line-height: 150%;
+}
+
+#left {
+padding: 40px;
+float:left;
+width: 680px;
+}
+
+.firstcharacter {
+  color: #903;
+  float: left;
+  font-family: 'EB Garamond', serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
